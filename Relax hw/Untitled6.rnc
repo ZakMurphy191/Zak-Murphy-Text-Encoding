@@ -1,0 +1,15 @@
+start = root
+root = element xml {source, poem}
+source= element source {title, author, date, pubPlace, publisher, editor}
+title= element title {level, text}
+level= attribute level {"poem"}
+author= element author {text, empty}
+date=element date {when, empty}
+when= attribute when {"1915"| text}
+pubPlace= element pubPlace {where, text}
+where= attribute where {"Boston"| text}
+publisher= element publisher {text}
+editor=  element editor {text}
+poem = element poem {lb+}
+lb = element lb {n, text}
+n = attribute n {xsd:integer}
