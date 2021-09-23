@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?xml-model href="Untitled6.rnc" type="application/relax-ng-compact-syntax"?>
+
+<?xml-model href="relaxing3.rnc" type="application/relax-ng-compact-syntax"?>
 <xml>
     <source>
     <title level="poem">The Road Not Taken</title>
@@ -11,7 +12,7 @@
     <editor>Edward Connery Lathem</editor>
     </source>
 <poem>
-<lb n="1">Two roads diverged in a yellow wood,</lb>
+<lb n="1">Two roads diverged in a <color>yellow</color> wood,</lb>
 <lb n="2">And sorry I could not travel both</lb>
 <lb n="3">And be one traveler, long I stood</lb>
 <lb n="4">looked down one as far as I could</lb>
@@ -24,7 +25,7 @@
 <lb n="10">Had worn them really about the same,</lb>
 
 <lb n="11">And both that morning equally lay</lb>
-<lb n="12">In leaves no step had trodden black.</lb>
+<lb n="12">In leaves no step had trodden <color>black</color>.</lb>
 <lb n="13">Oh, I kept the first for another day!</lb>
 <lb n= "14">Yet knowing how way leads on to way,</lb>
 <lb n="15">I doubted if I should ever come back.</lb>

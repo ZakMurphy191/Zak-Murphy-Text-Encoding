@@ -11,5 +11,6 @@ where= attribute where {"Boston"| text}
 publisher= element publisher {text}
 editor=  element editor {text}
 poem = element poem {lb+}
-lb = element lb {n, text}
+lb = element lb {n, mixed{color*}}
+color= element color {text}
 n = attribute n {xsd:integer}
